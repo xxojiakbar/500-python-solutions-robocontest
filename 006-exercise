@@ -1,0 +1,25 @@
+"""Masala #A0008"""
+"""
+Niqob - №1
+N
+N ta talaba 
+K
+K ta niqob sotib oldilar va niqoblarni teng bo`lib olishga kelishdilar. Har bir talaba nechtadan niqob olishini aniqlang.
+
+Kiruvchi ma'lumotlar:
+Kirish faylida ikkita musbat butun son, 
+N
+N va 
+K
+K sonlari kiritiladi, sonlar qiymati 
+10000
+10000 dan oshmaydi.
+
+Chiquvchi ma'lumotlar:
+Bitta butun son - masala javobini chiqaring.
+
+"""
+n = int(input())
+k = int(input())
+print(k // n)
+
