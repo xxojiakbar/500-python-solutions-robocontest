@@ -1,3 +1,5 @@
+#R001A Virus №1
+
 N, K = map(int, input().split())
 
 if N == 0 or K == 0:
