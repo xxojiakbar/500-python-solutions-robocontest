@@ -1,20 +1,19 @@
+#R008B Aql tishi
 x, y = map(int, input().split())
 
+holat = 0
 kun = 0
-holati = 0
 
-while holati < 100:
+while holat < 100:
     kun += 1
-    holati -= y
-    holati += x 
-    
-    if holati >= 100:
+
+    holat = max(0, holat - y)
+    holat = min(100, holat + x)
+
+    if holat == 100:
         break
-    
-    holati -= y 
-    holati -= y 
-    
-    if holati < 0:
-        holati = 0
+
+    holat = max(0, holat - y)
+    holat = max(0, holat - y)
+
 print(kun)
-    
